@@ -28,11 +28,11 @@ public class App {
         App app = new App();
         System.out.println(String.format("%-20s %-15s %-15s", "Number of Steps (N)", "Trial Number (M)", "Final Position (D)"));
         System.out.println("--------------------------------------------------------");
-        for(int i = 0; i < 5; i++){
-            System.out.println(app.flipCoin(10,10));
+        for (int i = 0; i < 5; i++) {
+            System.out.println(app.flipCoin(10, 10));
         }
-        for(int j = 0; j < 5; j++){
-            System.out.println(app.flipCoin(100,100));
+        for (int j = 0; j < 5; j++) {
+            System.out.println(app.flipCoin(100, 100));
         }
     }
 }
